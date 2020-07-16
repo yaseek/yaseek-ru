@@ -1,0 +1,50 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-yaseek-dev-152114-authRole",
+            "UnauthRoleArn": "arn:aws:iam::481905905886:role/amplify-yaseek-dev-152114-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::481905905886:role/amplify-yaseek-dev-152114-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-yaseek-dev-152114-deployment",
+            "UnauthRoleName": "amplify-yaseek-dev-152114-unauthRole",
+            "StackName": "amplify-yaseek-dev-152114",
+            "StackId": "arn:aws:cloudformation:eu-central-1:481905905886:stack/amplify-yaseek-dev-152114/d99efcf0-c75e-11ea-9a7a-02f9d8bbd456",
+            "AmplifyAppId": "d39gxidl5gh98c"
+        },
+        "categories": {
+            "function": {
+                "yaseekauthPostConfirmation": {
+                    "GROUP": "users"
+                }
+            },
+            "auth": {
+                "yaseekauth": {}
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-yaseek-prod-153930-authRole",
+            "UnauthRoleArn": "arn:aws:iam::481905905886:role/amplify-yaseek-prod-153930-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::481905905886:role/amplify-yaseek-prod-153930-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-yaseek-prod-153930-deployment",
+            "UnauthRoleName": "amplify-yaseek-prod-153930-unauthRole",
+            "StackName": "amplify-yaseek-prod-153930",
+            "StackId": "arn:aws:cloudformation:eu-central-1:481905905886:stack/amplify-yaseek-prod-153930/65e4a5a0-c761-11ea-a521-0ac41be8cd2e",
+            "AmplifyAppId": "d39gxidl5gh98c"
+        },
+        "categories": {
+            "auth": {
+                "userPoolGroups": {},
+                "yaseekauth": {}
+            },
+            "function": {
+                "yaseekauthPostConfirmation": {
+                    "GROUP": "users"
+                },
+                "AdminQueriescc924db1": {}
+            }
+        }
+    }
+}

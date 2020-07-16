@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "yaseek",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authyaseekauth",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
